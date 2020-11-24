@@ -14,7 +14,8 @@
     "webpack": "^1.14.0"
   },
   "scripts": {
-    "format": "prettier --write '{,!(.git|dist|node_modules)/**/}*.{css,html,js,json,md,scss}' --loglevel warn"
+   "start": "node server.js" 
+   "format": "prettier --write '{,!(.git|dist|node_modules)/**/}*.{css,html,js,json,md,scss}' --loglevel warn"
   },
   "prettier": {
     "printWidth": 160,
