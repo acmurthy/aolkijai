@@ -9,7 +9,7 @@ cp -a package.json yarn.lock requirements.txt dist
 ./node_modules/.bin/node-sass --style expanded --sourcemap=none --no-cache client/stats/css/stats.scss client/stats/css/stats.css
 
 # favicon.ico
-cp -a ../tlstyer.com/favicon.ico dist/web
+#cp -a ../tlstyer.com/favicon.ico dist/web
 
 # pre-existing static files
 cp -a client/main/static/* dist/web/static
